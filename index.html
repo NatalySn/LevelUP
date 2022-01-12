@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Static Template</title>
+    <style>
+      .secondTable td,
+      th {
+        border: 1px solid orange;
+      }
+      .secondTable thead {
+        border-top: 4px solid orange;
+      }
+      .secondTable {
+        border-collapse: collapse;
+      }
+    </style>
   </head>
   <body>
     <table width="100%">
@@ -15,7 +27,7 @@
     </table>
     <h1>WHO</h1>
     <img src="/img/human.png" alt="" srcset="" />
-    <table>
+    <table class="secondTable">
       <thead align="left">
         <tr>
           <th>Производитель</th>
