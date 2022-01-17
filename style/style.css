@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    font-size: 16px;
+    color: #d1cccc;
+
+
+}
+
+#block1 {
+    background: linear-gradient(45deg, #FC6F5C, #FAA235, #FB923B);
+    color: #ffffff;
+    height: 794px;
+}
+
+#block1 .logo {
+    margin: 57px 0 0 130px;
+    width: 121px;
+    height: 45px;
+    left: 130px;
+    top: 57px;
+}
+
+#block1 .date {
+
+    margin: 57px 130px 0 0;
+}
+
+.product {
+    text-align: center;
+}
+
+.product .human {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+
+}
+
+.product .group4 {
+
+    margin: 8% 0.08% auto.57%;
+
+}
+
+.product h1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: auto;
+    position: absolute;
+    top: 375px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 3px;
+    letter-spacing: 15px;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+.product h1 .bigger {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 153.6px;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.product h1 .smaller {
+    font-family: 'Fira Sans', sans-serif;
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1px;
+    letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.register {
+    font-family: 'Fira Sans', sans-serif;
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 186px;
+    height: 66px;
+    margin: 250px 627px 0 627px;
+    z-index: 2;
+}
+
+h2 {
+    margin: auto;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#block2,
+#block4,
+#block6 h2 {
+    color: #000000;
+}
+
+#block3,
+#block5 h2 {
+    color: #ffffff;
+}
+
+.secondTable td,
+th {
+    border: 1px solid orange;
+}
+
+.secondTable thead {
+    border-top: 4px solid orange;
+}
+
+.secondTable {
+    border-collapse: collapse;
+}
