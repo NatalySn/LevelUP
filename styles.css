@@ -1,0 +1,501 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body {
+  font-size: 16px;
+  color: #d1cccc;
+}
+#block1 {
+  background: linear-gradient(45deg, #FC6F5C, #FAA235, #FB923B);
+  color: #ffffff;
+  height: 100vh;
+}
+#block1 .logo {
+  margin: 9% 0 0 25%;
+  width: 121px;
+  height: 45px;
+}
+#block1 .date {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 9% 25% 0 0;
+}
+.product {
+  text-align: center;
+}
+.product .human {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  height: 83.5vh;
+}
+.product .group4 {
+  height: 23.7vh;
+  margin: 7% 0.08% auto 0.57%;
+  z-index: 2;
+}
+.product h1 {
+  font-family: 'Fira Sans', sans-serif;
+  margin: auto;
+  position: absolute;
+  top: 57%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 3px;
+  letter-spacing: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.product h1 .bigger {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 800;
+  font-size: 128px;
+  line-height: 153.6px;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.product h1 .smaller {
+  font-family: 'Fira Sans', sans-serif;
+  font-family: Open Sans;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1px;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.register {
+  font-family: 'Fira Sans', sans-serif;
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 12%;
+  height: 8%;
+  margin: 17% 44% 0 44%;
+  z-index: 2;
+  background-color: #fff;
+  border: 1px solid #3b3b3b;
+}
+#block2 {
+  height: 100vh;
+  color: #000000;
+}
+.block21 {
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.block21 h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 300;
+  letter-spacing: 6px;
+  margin-top: 2%;
+}
+.block21 p {
+  margin: auto;
+  font-size: 19px;
+  line-height: 24px;
+  width: 45%;
+  text-align: left;
+}
+p.information1 {
+  margin-top: 5%;
+}
+p.information2 {
+  margin-top: 1%;
+}
+.register2 {
+  font-family: 'Fira Sans', sans-serif;
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 12%;
+  height: 6%;
+  margin: -2.3% 7% 0 81%;
+  z-index: 2;
+  background-color: #fff;
+  border: 1px solid #3b3b3b;
+}
+.register2:hover {
+  background: linear-gradient(45deg, #FC6F5C, #FAA235, #FB923B);
+}
+.block22 {
+  display: flex;
+  text-align: left;
+}
+.block22 article {
+  width: 30%;
+  margin: auto;
+}
+.block22 article img {
+  width: 50%;
+  margin: 10% 25% 2%;
+  text-align: center;
+}
+.block22 h3 {
+  font-family: 'Fira Sans', sans-serif;
+  color: #FF7E03;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  width: 50%;
+  margin: 10% 25% 2%;
+  text-align: center;
+}
+.block22 p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  width: 80%;
+  margin: 1% 10%;
+}
+#block3 {
+  font-family: 'Fira Sans', sans-serif;
+  height: 100vh;
+  background: #353535;
+  text-align: center;
+  color: #ffffff;
+}
+#block3 .logo {
+  margin: 9% 0 0 -25%;
+  width: 121px;
+  height: 45px;
+}
+#block3 .date {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 9% 25% 0 0;
+}
+#block3 h2 {
+  position: absolute;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+  width: 30%;
+  margin: -3.2% 35%;
+  letter-spacing: 6px;
+}
+#block3 .AboutCourse {
+  margin: 5% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  height: 70%;
+  flex-direction: row;
+  border: solid 1px #fff;
+}
+#block3 .container p {
+  text-align: left;
+  margin: 1% 0 0 20%;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.0326923px;
+}
+#block3 .container h3 {
+  text-align: left;
+  margin: 1% 0 0 20%;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+}
+#block3 .container h4 {
+  text-align: left;
+  margin: 1% 0 0 20%;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.0326923px;
+}
+#block3 .container .coolstyle {
+  letter-spacing: 13.2778px;
+  font-size: 32px;
+  line-height: 40px;
+}
+#block3 .container img {
+  width: 18px;
+}
+#block3 .container1 {
+  margin-top: 5%;
+  flex-basis: 30%;
+}
+#block3 .container1 span {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 121px;
+  letter-spacing: -0.0871795px;
+}
+#block3 .container2 {
+  margin-top: 5%;
+  flex-basis: 70%;
+}
+#block3 .thirdcontainer {
+  margin-top: 10%;
+}
+#block3 .register3 {
+  background: none;
+  color: #fff;
+  border: #fff solid 1px;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 146px;
+  height: 46px;
+  margin: 5% 0 0 30%;
+}
+#block3 .specification {
+  padding-top: 30px;
+}
+.block3end {
+  height: 25vh;
+}
+.block3end h2 {
+  position: absolute;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+  width: 10%;
+  margin: -3.2% 45%;
+  letter-spacing: 6px;
+  color: #4A4A4A;
+}
+.block3end .date {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 9% 25% 0 0;
+  color: #4A4A4A;
+}
+.block3end .register4 {
+  background: #FF7E03;
+  color: #fff;
+  border: #fff solid 1px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 10%;
+  height: 25%;
+  margin: 3% 0;
+}
+#block4 {
+  background: linear-gradient(45deg, #FC6F5C, #FAA235, #FB923B);
+  color: #ffffff;
+  height: 100vh;
+  margin-top: 30vh;
+  color: #000000;
+}
+#block4 .logo {
+  margin: 9% 0 0 25%;
+  width: 121px;
+  height: 45px;
+}
+#block4 .date {
+  font-family: 'Fira Sans', sans-serif;
+  margin: 9% 25% 0 0;
+  color: #fff;
+}
+#block4 h2 {
+  position: absolute;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 36px;
+  width: 20%;
+  margin: -3.2% 40%;
+  letter-spacing: 3px;
+  color: #fff;
+}
+#block4 .infoBlock4 {
+  margin: auto;
+  font-size: 19px;
+  line-height: 24px;
+  width: 45%;
+  margin-top: 8%;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+}
+#block4 .register5 {
+  background: #ffffff;
+  color: #000000;
+  border: #fff solid 1px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 10%;
+  height: 7%;
+  margin: 10% 45%;
+}
+.block42 {
+  display: flex;
+  text-align: left;
+}
+.block42 article {
+  width: 30%;
+  margin: auto;
+}
+.block42 h3 {
+  width: 50%;
+  margin: 30% 25% 2%;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+}
+.block42 p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  width: 80%;
+  margin: 1% 10%;
+  text-align: center;
+}
+#block5 {
+  height: 100vh;
+}
+#block5 .logo {
+  margin: 9% 0 0 25%;
+  width: 121px;
+  height: 45px;
+}
+#block5 .register6 {
+  background: none;
+  color: #000000;
+  border: #000000 solid 1px;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 146px;
+  height: 46px;
+  margin: 5% 0 0 60%;
+}
+#block5 .block5info {
+  margin: auto;
+  font-size: 19px;
+  line-height: 24px;
+  width: 60%;
+  margin-top: 6%;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #3d3d3d;
+}
+#block5 h2 {
+  color: #ffffff;
+}
+.medias {
+  display: flex;
+  text-align: left;
+}
+.medias img {
+  width: 7%;
+  display: inline;
+}
+.medias article {
+  width: 30%;
+  padding-top: 10%;
+}
+.medias .first {
+  margin-left: 20%;
+}
+.medias .second {
+  margin-right: 20%;
+  text-align: right;
+}
+.medias p {
+  margin-left: 5%;
+  display: inline;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  width: 30%;
+  text-align: center;
+}
+.medias .openings {
+  background: #FF7E03;
+  color: #fff;
+  border: #fff solid 1px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 50%;
+  height: 80%;
+}
+.copyright {
+  display: flex;
+  text-align: left;
+}
+.copyright article {
+  width: 70%;
+  padding-top: 10%;
+}
+.copyright .first {
+  margin-left: 15%;
+}
+.copyright .second {
+  margin-right: 15%;
+  color: #FF7E03;
+  text-align: right;
+}
+#block6 h2 {
+  color: #000000;
+}
+.secondTable {
+  border-collapse: collapse;
+}
+.secondTable td {
+  border: 1px solid orange;
+}
+.secondTable thead {
+  border-top: 4px solid orange;
+}
+th {
+  border: 1px solid orange;
+}
